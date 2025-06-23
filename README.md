@@ -15,9 +15,9 @@ Durante el desarrollo del trabajo se implementaron las siguientes etapas:
 - **Generación de datos sintéticos** con una relación lineal y ruido gaussiano.
 - **Construcción manual de la matriz de diseño** (`X`) incluyendo el término independiente.
 - **Aplicación de la fórmula matricial** de regresión lineal:  
-  $$
-  \boldsymbol{\beta} = (X^T X)^{-1} X^T y
-  $$
+
+beta = (Xᵀ X)⁻¹ Xᵀ y
+
 - **Obtención del vector de parámetros** ajustados (`β`) que representan el intercepto y la pendiente.
 - **Visualización gráfica** del conjunto de datos original y la recta de regresión ajustada.
 - **Documentación completa** con docstrings, comentarios explicativos y conclusión en formato Markdown.
